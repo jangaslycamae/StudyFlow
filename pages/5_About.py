@@ -34,7 +34,7 @@ st.write("") # Whitespace
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("🎯 Use-Case")
+    st.subheader("Use-Case")
     st.write(
         "StudyFlow is an academic planner and notes application designed to help students "
         "stay organized and productive. It combines note-taking, task management, and "
@@ -43,7 +43,7 @@ with col1:
     )
 
 with col2:
-    st.subheader("👤 Target User")
+    st.subheader("Target User")
     st.write(
         "StudyFlow is built specifically for students who want to keep track of lectures, "
         "assignments, exams, and daily study goals in a single, accessible platform."
@@ -52,9 +52,9 @@ with col2:
 st.divider()
 
 # --- INPUTS & OUTPUTS ---
-st.subheader("⚙️ How It Works")
+st.subheader("How It Works")
 
-tab1, tab2 = st.tabs(["📥 Inputs (Collected)", "📤 Outputs (Displayed)"])
+tab1, tab2 = st.tabs(["Inputs (Collected)", "Outputs (Displayed)"])
 
 with tab1:
     st.markdown("""
