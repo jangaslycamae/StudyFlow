@@ -68,7 +68,7 @@ st.divider()
 saved_notes = load_all_notes()
 search_query = st.text_input("Search your notes...", placeholder="Type a keyword to find a note", icon= ":material/search:")
 
-st.subheader("📙 Your Library")
+st.subheader("Your Library")
 
 # Filter notes
 if search_query:
