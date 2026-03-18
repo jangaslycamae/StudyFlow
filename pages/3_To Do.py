@@ -31,7 +31,7 @@ todos = load_todos()
 
 # 1. TOP SECTION: ADD NEW TASK
 with st.container(border=True):
-    st.subheader("🟨 New Task ")
+    st.subheader("New Task ")
     st.divider()
     col1, col2 = st.columns([3, 1])
     
