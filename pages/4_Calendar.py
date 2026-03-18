@@ -66,7 +66,7 @@ with st.container(border=True):
 st.divider()
 
 # 2. THE COUNTDOWN TIMELINE
-st.subheader("⏳ Deadlines")
+st.subheader(" Deadlines")
 
 if not events:
     st.info("No deadlines set. Take a breath!")
